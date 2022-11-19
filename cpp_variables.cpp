@@ -6,7 +6,10 @@ int main()
 {
     //int myNum = 15;
     //cout<<myNum<<endl;
-    int x = 50, y = 5, z = 50;
+    // int x = 50, y = 5, z = 50;
+
+    int x, y, z;
+    x = y = z = 50;
 
     cout << x + y + z;
 
