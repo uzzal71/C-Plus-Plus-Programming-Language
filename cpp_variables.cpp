@@ -12,12 +12,16 @@ int main()
     //x = y = z = 50;
 
     // Good
-    int minutesPerHour = 60;
+    //int minutesPerHour = 60;
 
     // OK, but not so easy to understand what m actually is
-    int m = 60;
+    //int m = 60;
 
-    cout << minutesPerHour;
+    const int minutesPerHour = 60;
+    const float PI = 3.14;
+
+    cout << minutesPerHour << endl;
+    cout << PI;
 
     return 0;
 }
